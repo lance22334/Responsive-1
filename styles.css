@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media only screen and(max-width){
+    body{
+        background: #F09A9D;
+    }
+}
+
+
+@media only screen and (min-width: 401px) and (max-width: 961px){
+    body{
+        background-color: #F5CF8E;
+    }
+}
+
+
+@media only screen and (min-width: 961px){
+    background-color: #C8C6FA;
+}
+.page{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-itmes: center;
+}
+
+.menu{
+    background-color: #F5CF8E;
+    height: 80px
+}
+.header{
+    background-color: purple;
+}
+.content{
+    background-color: #EAEDF0;
+    height: 600px
+}
+
+sign-up{
+    background-color: darkred;
+}
+
+.feature-1{
+    background-colro: #F5CF8E;
+}
+.feature-2{
+    background-colro: #F5CF8E;
+}
+.feature-3{
+    background-colro: #F5CF8E;
+}
